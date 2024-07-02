@@ -522,10 +522,6 @@ body {
 
 
 .statistics {
-  -moz-column-width: 25%;
-  -webkit-column-width: 25%;
-  -webkit-column-count: 4;
-  -moz-column-count: 4;
   column-width: 25%;
   column-count: 4;
   padding: 20px;
@@ -533,30 +529,35 @@ body {
   margin: 50px auto 0px;
   border-radius: 30px;
   width: 97%;
-  h1 {
-    color: #0b384c;
-    font-size: 2rem;
-    margin: 12px 0;
-    font-family: sans-serif;
-    font-weight: 700;
-  }
-  .CountUp {
-    color: #0b384c;
-    font-size: 2rem;
-    margin: 5px 0;
-    font-family: sans-serif;
-    font-weight: 700;
-  }
-  h4 {
-    color: black;
-    font-size: 1rem;
-  }
-  div {
-    width: fit-content;
-    padding: 20px;
-    border-radius: 10px;
-  }
 }
+
+.statistics h1 {
+  color: #0b384c;
+  font-size: 2rem;
+  margin: 12px 0;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.statistics .CountUp {
+  color: #0b384c;
+  font-size: 2rem;
+  margin: 5px 0;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.statistics h4 {
+  color: black;
+  font-size: 1rem;
+}
+
+.statistics div {
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 
 
 
