@@ -522,11 +522,15 @@ body {
 
 
 .statistics {
+  -moz-column-width: 25%;
+  -webkit-column-width: 25%;
   column-width: 25%;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
   column-count: 4;
   padding: 20px;
   background-color: #0b26322d;
-  margin: 50px auto 0px;
+  margin: 50px auto 0;
   border-radius: 30px;
   width: 97%;
 }
