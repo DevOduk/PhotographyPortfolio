@@ -522,17 +522,17 @@ body {
 
 
 .statistics {
-  -moz-column-width: 25%;
-  -webkit-column-width: 25%;
   column-width: 25%;
-  -webkit-column-count: 4;
-  -moz-column-count: 4;
   column-count: 4;
   padding: 20px;
   background-color: #0b26322d;
   margin: 50px auto 0;
   border-radius: 30px;
   width: 97%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
 }
 
 .statistics h1 {
@@ -554,12 +554,14 @@ body {
 .statistics h4 {
   color: black;
   font-size: 1rem;
+  text-align: center;
 }
 
 .statistics div {
   width: fit-content;
   padding: 20px;
   border-radius: 10px;
+  background-color: #ffffff80;
 }
 
 
