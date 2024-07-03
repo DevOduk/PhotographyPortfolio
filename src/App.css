@@ -1313,6 +1313,10 @@ footer {
     -moz-column-count: 2;
     column-count: 2;
   }
+
+    .navItems {
+      backgound-color: #030c10 !important;
+    }
   }
 
 
