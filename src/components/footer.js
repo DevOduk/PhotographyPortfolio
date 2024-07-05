@@ -55,7 +55,8 @@ const CookieBanner = () => {
                   <a href=''><i className="fa-brands fa-spotify"></i></a>
                   <a href=''><i className="fa-solid fa-blog"></i></a>
             </div>
-          <p>Copyright © All Rights Reserved | Designed & Developed by Austine Codes <a href='https://github.com/DevOduk'>See Portfolio</a></p>
+          <p>Copyright ©2024 All Rights Reserved</p>
+          <p>Designed & Developed by Austine Codes <a href='https://github.com/DevOduk'>See Portfolio</a></p>
         </footer>
         <CookieBanner />
     </div>
