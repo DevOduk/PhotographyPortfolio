@@ -1185,13 +1185,13 @@ footer {
     position: relative;
     width: 100%;
     padding: 10px 0;
+    border: 1px solid gainsboro;
     img {
       width: 100%;
       height: 100%;
       aspect-ratio: 10/11;
       object-fit: cover;
       object-position: center;
-      filter: brightness(40%);
       transition: .3s;
     }
     h3 {
@@ -1201,13 +1201,11 @@ footer {
       font-size: .9rem;
     }
   }
-  .blogItem:hover  img {
-      filter: brightness(70%);
-    }
+  
   .overlay {
     position: relative;
     color: black !important;
-    padding: 15px  !important;
+    text-align: left;
   }
 
 
