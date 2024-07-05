@@ -257,7 +257,7 @@ function Home() {
         <div className='blogs container'>
           <div className='blogItem'>
             <a href='/#'>
-                <img src='/media/images/man-7799486_960_720.webp' alt='/media/images/man-7799486_960_720.webp' />
+                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6pTCD-ACc3SeluJm_vOKl86cXLBeZr_qsg&usqp=CAU' alt='/media/images/man-7799486_960_720.webp' />
                 <div className='overlay d-flex flex-column justify-content-end text-center p-4'>
                   <h3>PHOTOGRAPHY/VIDEOGRAPHY</h3>
                   <p>10 Tips for taking professional level photos for Beginners</p>
