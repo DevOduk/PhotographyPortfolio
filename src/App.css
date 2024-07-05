@@ -1205,15 +1205,10 @@ footer {
       filter: brightness(70%);
     }
   .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    gap: 5px;
-    color: white;
+    position: relative;
+    color: black !important;
+    padding: 15px  !important;
   }
-  
 
 
 
@@ -1303,11 +1298,6 @@ footer {
       border: 1px solid #009adb;
       margin: 5px 0;
     }
-  .overlay {
-    position: relative;
-    color: black !important;
-    padding: 15px  !important;
-  }
   .statistics {
     -webkit-column-count: 2;
     -moz-column-count: 2;
