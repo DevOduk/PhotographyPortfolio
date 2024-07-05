@@ -260,7 +260,7 @@ function Home() {
                 <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6pTCD-ACc3SeluJm_vOKl86cXLBeZr_qsg&usqp=CAU' alt='/media/images/man-7799486_960_720.webp' />
                 <div className='overlay d-flex flex-column justify-content-end text-center p-4'>
                   <h3>PHOTOGRAPHY/VIDEOGRAPHY</h3>
-                  <p>10 Tips for taking professional level photos for Beginners</p>
+                  <p>10 Tips for taking professional level photos for Beginners 📷</p>
                 </div>
             </a>
           </div>
@@ -269,7 +269,7 @@ function Home() {
                 <img src='https://www.tourmyindia.com/blog//wp-content/uploads/2019/11/Romantic-Honeymoon-Destinations-around-the-World.jpg' alt='/media/images/man-7799486_960_720.webp' />
                 <div className='overlay d-flex flex-column justify-content-end text-center p-4'>
                   <h3>WEDDING/COUPLES</h3>
-                  <p>Top 7 Most epic honeymoon destination ideas for newly weds (Or not?)</p>
+                  <p>Top 7 Most epic honeymoon destination ideas for newly wedded couples❤️</p>
                 </div>
             </a>
           </div>
