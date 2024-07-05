@@ -259,8 +259,8 @@ function Home() {
             <a href='/#'>
                 <img src='/media/images/man-7799486_960_720.webp' alt='/media/images/man-7799486_960_720.webp' />
                 <div className='overlay d-flex flex-column justify-content-end text-center p-4'>
-                  <h3>WEDDING/COUPLES</h3>
-                  <p>The Most epic wedding destinations and setup</p>
+                  <h3>PHOTOGRAPHY/VIDEOGRAPHY</h3>
+                  <p>10 Tips for taking professional level photos for Beginners</p>
                 </div>
             </a>
           </div>
@@ -269,16 +269,7 @@ function Home() {
                 <img src='/media/images/man-7799486_960_720.webp' alt='/media/images/man-7799486_960_720.webp' />
                 <div className='overlay d-flex flex-column justify-content-end text-center p-4'>
                   <h3>WEDDING/COUPLES</h3>
-                  <p>The Most epic wedding destinations and setup</p>
-                </div>
-            </a>
-          </div>
-          <div className='blogItem'>
-            <a href='/#'>
-                <img src='/media/images/man-7799486_960_720.webp' alt='/media/images/man-7799486_960_720.webp' />
-                <div className='overlay d-flex flex-column justify-content-end text-center p-4'>
-                  <h3>WEDDING/COUPLES</h3>
-                  <p>The Most epic wedding destinations and setup</p>
+                  <p>Top 7 Most epic honeymoon destination ideas for newly weds (Or not?)</p>
                 </div>
             </a>
           </div>
