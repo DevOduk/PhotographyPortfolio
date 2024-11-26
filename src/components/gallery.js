@@ -46,7 +46,7 @@ function Gallery() {
                 return (
                     <div className='pics' key={index} onClick={() => showImg(index)}>
                         <img src={image.src} alt={image.alt} />
-                        <div><button><ion-icon name="heart-outline"></ion-icon></button><span>24</span></div>
+                        <div><button><ion-icon name="heart-outline"></ion-icon></button><span>0</span></div>
                     </div>
                 )
             })}

@@ -72,10 +72,10 @@ function Navigation() {
               <a style={color} href='https://bit.ly/3Q0NW1q' target='_blank'><i className="fa-solid fa-blog"></i></a>
         </div>
         <div className='centerNav'>
-          <a href='/home' style={color}><h2 className='logo'>A-codes</h2></a>
+          <a href='/' style={color}><h2 className='logo'>A-codes</h2></a>
           {open && (
-          <ul className='navItems'style={{display: open && window.innerWidth <= 800 ? 'none' : 'block' }}>
-              <a style={color} onClick={handleMenuItemClick} href='/#' className='active'> <li>home.</li></a>
+          <ul className='navItems'style={{backgroundColor: isTop ? '#030c10' : 'whitesmoke', display: open && window.innerWidth <= 800 ? 'none' : 'block' }}>
+              <a style={color} onClick={handleMenuItemClick} href='/' className='active'> <li>home.</li></a>
               <a style={color} onClick={handleMenuItemClick} href='/#categories'> <li>categories.</li></a>
               <a style={color} onClick={handleMenuItemClick} href='/#about'> <li>about.</li></a>
               <a style={color} onClick={handleMenuItemClick} href='/#contact'> <li>contacts.</li></a>

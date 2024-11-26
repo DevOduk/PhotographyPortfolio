@@ -10,6 +10,7 @@ import LandscapePhotography from './pages/landscape';
 import CarsPhotography from './pages/cars';
 import EventsPhotography from './pages/events&weddings';
 import HumanityPhotography from './pages/people&humanity';
+import Blogs from './pages/Blogs';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             <Routes>
                   <Route index element={<Home />}/>
                   <Route path="/" element={<Home />} />
-                  <Route path="/home" element={<Home />} />
+                  <Route path="/Blogs/" element={<Blogs />} />
                   <Route path="/City-Urban-Photography" element={<CityUrbanPhotography />} />
                   <Route path="/Landscape-Photography" element={<LandscapePhotography />} />
                   <Route path="/Cars-Vehicles-Photography" element={<CarsPhotography />} />

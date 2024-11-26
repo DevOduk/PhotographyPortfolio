@@ -97,18 +97,23 @@ function Home() {
       <div className='mainHome'>
             <div className='heroPage'>
                     <div className='heading'>
-                      <h1>CLASSIC A-LEVEL PHOTOGRAPHY & <br/> FILM PRODUCTION</h1>
+                      <h1>CLASSIC A-LEVEL PHOTOGRAPHY & FILM PRODUCTION</h1>
                       <h4>
-                          You need a skilled photographer and videographer for your
-                          epic party with family and friends? I am here for the<br/> 
-                          unexpected moments, capturing the joyous of emblems.<br/>
-                          You feel the vibe? <a href='#'> Let’s get it! </a>
-                      </h4>
+    Looking for a skilled photographer and videographer to elevate your epic party with family and friends?  
+    I specialize in capturing unforgettable memories, from candid laughs to heartfelt moments, turning them into timeless treasures.  
+    Whether it's the unexpected magic or the perfectly planned, I’ll bring your celebration to life through my lens.  
+    Let’s create vibrant, joyful, and breathtaking visuals together. You feel the vibe?  
+    <a href='#'>Let’s get it!</a>
+</h4>
+
                     </div>
                     <div className='hire'>
                           <a href='/'> <button type='' >Hire us <i className="bi bi-arrow-right"></i></button> </a>
                     </div>
             </div>
+      <div className='imgLeft'>
+        <img src='/media/images/photography.avif' alt='' />
+      </div>
       </div>
 
       <div className='container statistics'>
@@ -250,12 +255,33 @@ function Home() {
        <ContactForm />
        <h5 className='container text-center bg-danger text-light pt-5 pb-5'>"If you like something, rock it. If you want to rock a cape every day, go for it."<br/><b><i>Post Malone</i></b>
 </h5>
-    
+  
 
-       <h1 className='h1'>Blog Posts</h1>
+        <h1 className='p-4 text-center'>Feeling lovely? Let's find you smething!</h1>
+        <div className='calltoAction mt-5 mb-5'>
+            <h2>Well, what next,</h2>
+            <h1>READY TO MAKE THAT DREAM <br/>A REALITY?</h1>
+            <p>Click straight over to my contact page, send me a message, and let's make this happen!</p>
+            <a href='#contact'><button >Find Me</button></a>
+        </div>
+
+
+
+        <h1 className='h1 mt-5'>Blog Posts</h1>
         <h4 style={{textAlign: "center"}}>FEATURED</h4>
-        <div className='blogs container'>
-          <div className='blogItem'>
+        <div className='blogs container d-flex flex-wrap flex-row mb-4'>
+          
+        <div className='blogItem'>
+            <a href='/#'>
+                <img src='https://media.licdn.com/dms/image/D5612AQEnPQSM_AJ80Q/article-cover_image-shrink_600_2000/0/1694148630782?e=2147483647&v=beta&t=XbtTM6lzzEoWVf7ZzSQI_zbBdelfziIrYtoHTlvz7-I' alt='/media/images/man-7799486_960_720.webp' />
+                <div className='overlay d-flex flex-column justify-content-end text-center p-4'>
+                  <h3>TECHNOLOGY/IT NEWS</h3>
+                  <p>10 Tips for taking professional level photos for Beginners 📷</p>
+                </div>
+            </a>
+          </div>
+          
+        <div className='blogItem'>
             <a href='/#'>
                 <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6pTCD-ACc3SeluJm_vOKl86cXLBeZr_qsg&usqp=CAU' alt='/media/images/man-7799486_960_720.webp' />
                 <div className='overlay d-flex flex-column justify-content-end text-center p-4'>
@@ -269,20 +295,13 @@ function Home() {
                 <img src='https://www.tourmyindia.com/blog//wp-content/uploads/2019/11/Romantic-Honeymoon-Destinations-around-the-World.jpg' alt='/media/images/man-7799486_960_720.webp' />
                 <div className='overlay d-flex flex-column justify-content-end text-center p-4'>
                   <h3>WEDDING/COUPLES</h3>
-                  <p>Top 7 Most epic honeymoon destination ideas for newly wedded couples❤️</p>
+                  <p>Top 7 Most epic honeymoon destination for newly weds❤️</p>
                 </div>
             </a>
           </div>
 
         </div>
 
-        <h1 className='p-4 text-center'>Feeling lovely? Let's find you smething!</h1>
-        <div className='calltoAction mt-5 mb-5'>
-            <h2>Well, what next,</h2>
-            <h1>READY TO MAKE THAT DREAM <br/>A REALITY?</h1>
-            <p>Click straight over to my contact page, send me a message, and let's make this happen!</p>
-            <a href='#contact'><button >Find Me</button></a>
-        </div>
         <Footer />
     </div>
   );
